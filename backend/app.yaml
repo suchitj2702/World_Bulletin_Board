@@ -1,0 +1,18 @@
+runtime: python39
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 10
+  max_concurrent_requests: 10
+
+env_variables:
+  DB_NAME: ""
+  DB_USER: ""
+  DB_PASSWORD: ""
+  DB_HOST: ""
+  DB_PORT: ""
+
+  BUCKET_NAME: "world-bulletin-board.appspot.com"
+
+  ACCESS_TOKEN_SECRET: ""
+  REFRESH_TOKEN_SECRET: ""
